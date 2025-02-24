@@ -74,7 +74,7 @@ http://localhost:8081
 
 ### 7. Upload image to Docker Hub
 1. Create Repo in Docker Hub
-   ![sample image](https://private-user-images.githubusercontent.com/32194879/290172715-d0faa9c1-815f-4ba0-a90c-238c88a80a87.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAzNzM0MDcsIm5iZiI6MTc0MDM3MzEwNywicGF0aCI6Ii8zMjE5NDg3OS8yOTAxNzI3MTUtZDBmYWE5YzEtODE1Zi00YmEwLWE5MGMtMjM4Yzg4YTgwYTg3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjI0VDA0NTgyN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTIxOGNlYmQzMWNiNjBmNmUxZTllOGM1NzU2YzIwYWYyZDVjODVkNGI5YTZhMTQ4ZGNhNzA4NDQ1NzAwNzM2YjcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.SjYxLsG34T7j8TnqPMWlj04f-Frr-CJnMsGBS6YYIdU)
+   ![sample image](https://github-production-user-asset-6210df.s3.amazonaws.com/130118661/416116255-f5e3c214-48e0-42f8-b96f-5477c7b9c9ce.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250224%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250224T084853Z&X-Amz-Expires=300&X-Amz-Signature=efd9c6b5f7594b45cdcef4a15f065e626b39aee8f4339d966b949a971f1428e8&X-Amz-SignedHeaders=host)
    
 2. We can Push images to this repo with the following commands:
 ```sh
