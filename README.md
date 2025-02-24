@@ -7,8 +7,8 @@
 This project is a .NET 8 API that runs in a Docker container.
 
 ## Prerequisites
-- [Docker](https://www.docker.com/get-started)
-- [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+- ![Docker](https://github.com/user-attachments/assets/12e8c3ae-2d72-4b39-95a9-62e51a2d16ff)
+- ![.NET 8 SDK](https://github.com/user-attachments/assets/0ff10159-bffc-4124-b48b-799573ee6e82)
 
 ## Docker Setup
 
