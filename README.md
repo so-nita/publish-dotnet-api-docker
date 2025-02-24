@@ -72,8 +72,28 @@ Open your browser and go to:
 http://localhost:8081
 ```
 
-## Replace Placeholder Image
-To update the project logo, replace `https://via.placeholder.com/150` with your actual image URL.
+### 7. Upload image to Docker Hub
+1. Create Repo in Docker Hub
+   [sample image](https://private-user-images.githubusercontent.com/32194879/290172715-d0faa9c1-815f-4ba0-a90c-238c88a80a87.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAzNzM0MDcsIm5iZiI6MTc0MDM3MzEwNywicGF0aCI6Ii8zMjE5NDg3OS8yOTAxNzI3MTUtZDBmYWE5YzEtODE1Zi00YmEwLWE5MGMtMjM4Yzg4YTgwYTg3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjI0VDA0NTgyN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTIxOGNlYmQzMWNiNjBmNmUxZTllOGM1NzU2YzIwYWYyZDVjODVkNGI5YTZhMTQ4ZGNhNzA4NDQ1NzAwNzM2YjcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.SjYxLsG34T7j8TnqPMWlj04f-Frr-CJnMsGBS6YYIdU)
+   
+2. We can Push images to this repo with the following commands:
+```sh
+docker tag api sonita2/my-second-repo:latest
+```
+then 
+```sh
+docker push sonita2/my-second-repo:latest
+```
+
+3. Pull the image on another machine (optional)
+```sh
+docker pull sonita2/my-second-repo:latest
+```
+   Then, you can run the container with:
+```sh
+docker run -d -p 8081:80 --name api-container sonita2/my-second-repo:latest
+```
+
 
 ## License
 This project is licensed under [MIT License](LICENSE).
